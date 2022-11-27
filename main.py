@@ -9,5 +9,5 @@ name = str(input('Vui lòng nhập tên chủ tài khoản: '))
 i = 0
 for ten in tenkh:
     if name == tenkh:
-        i = tenkh.index(ten)
+        i = tenkh.index(name)
         atm(tenkh[i], mk[i], sodu[i], hanmuc[i])
